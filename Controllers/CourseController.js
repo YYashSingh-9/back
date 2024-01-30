@@ -66,7 +66,7 @@ exports.logintimeChecker = async () => {
     const oldms = el.msDate;
     const currMs = Date.now();
     const gapHours = currMs - oldms;
-    if (gapHours >= 432000000) {
+    if (gapHours >= 19270404) {
       return el;
     }
   });
