@@ -23,7 +23,7 @@ mongoose
 const port = process.env.PORT || 8000;
 setInterval(() => {
   userchecker.logintimeChecker();
-}, 86400000);
+}, 10000);
 //3.Starting the server
 app.listen(port, () => {
   console.log(`Server started on port ${port}`);
