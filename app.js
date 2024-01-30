@@ -5,7 +5,7 @@ const userRouter = require("./Router/UserRouter");
 const courseRouter = require("./Router/CourseRouter");
 const CartRouter = require("./Router/CartRouter");
 const errorController = require("./Controllers/ErrorController");
-
+const path = require("path");
 const app = express();
 
 // * Global middleware (CORS) (Cross Origin Resource Sharing)
